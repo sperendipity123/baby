@@ -1,0 +1,27 @@
+nohup: ignoring input
+/home/pengyaoguang/.conda/envs/lovebaby/lib/python3.9/site-packages/torch/functional.py:504: UserWarning: torch.meshgrid: in an upcoming release, it will be required to pass the indexing argument. (Triggered internally at ../aten/src/ATen/native/TensorShape.cpp:3526.)
+  return _VF.meshgrid(tensors, **kwargs)  # type: ignore[attr-defined]
+cuda
+270 30
+4.988283530051164
+238 30
+4.9355806078895235
+247 30
+4.845929430412538
+234 30
+4.480028328033866
+218 30
+4.442378430828561
+219 30
+4.540666212865055
+202 30
+4.222371692490847
+218 30
+4.343490908474494
+213 30
+3.9794240039311077
+223 30
+4.191178111149171
+11
+Training time: 4380.69
+L_2 error is:  3.2239887714385986

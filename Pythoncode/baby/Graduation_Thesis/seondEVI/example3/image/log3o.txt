@@ -1,0 +1,15 @@
+nohup: ignoring input
+cuda:1
+/home/pengyaoguang/.conda/envs/lovebaby/lib/python3.9/site-packages/torch/functional.py:504: UserWarning: torch.meshgrid: in an upcoming release, it will be required to pass the indexing argument. (Triggered internally at ../aten/src/ATen/native/TensorShape.cpp:3526.)
+  return _VF.meshgrid(tensors, **kwargs)  # type: ignore[attr-defined]
+5e-05 tensor(0.0025, device='cuda:1', grad_fn=<AddBackward0>) tensor([[1.1740e-07]], device='cuda:1', grad_fn=<DivBackward0>)
+torch.Size([5000, 1])
+Training time: 18146.93
+L_2 error is:  0.12857140600681305
+# 修正后的结果，前提是第一个训练足够好
+cuda:1
+/home/pengyaoguang/.conda/envs/lovebaby/lib/python3.9/site-packages/torch/functional.py:504: UserWarning: torch.meshgrid: in an upcoming release, it will be required to pass the indexing argument. (Triggered internally at ../aten/src/ATen/native/TensorShape.cpp:3526.)
+  return _VF.meshgrid(tensors, **kwargs)  # type: ignore[attr-defined]
+5e-05 tensor(0.0021, device='cuda:1', grad_fn=<AddBackward0>) tensor([[1.4945e-07]], device='cuda:1', grad_fn=<DivBackward0>)
+Training time: 1422.42
+L_2 error is:  0.09415920078754425
